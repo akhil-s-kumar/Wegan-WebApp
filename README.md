@@ -1,70 +1,73 @@
-# Getting Started with Create React App
+# Wegan Frontend WebApp
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p text-align="left">
+    <a href="https://github.com/akhil-s-kumar/Wegan-WebApp/issues" alt="Issues">
+        <img src="https://img.shields.io/github/issues/akhil-s-kumar/Wegan-WebApp" /></a>
+    <a href="https://github.com/akhil-s-kumar/Wegan-WebApp/pulls" alt="Pull Requests">
+        <img src="https://img.shields.io/github/issues-pr/akhil-s-kumar/Wegan-WebApp" /></a>
+    <a href="https://github.com/akhil-s-kumar/Wegan-WebApp/network/members" alt="Forks">
+        <img src="https://img.shields.io/github/forks/akhil-s-kumar/Wegan-WebApp" /></a>
+    <a href="https://github.com/akhil-s-kumar/Wegan-WebApp/stargazers" alt="Stars">
+        <img src="https://img.shields.io/github/stars/akhil-s-kumar/Wegan-WebApp" /></a>
+</p>
 
-## Available Scripts
+Wegan is a react-based frontend framework for Wegan WebApp. 
 
-In the project directory, you can run:
 
-### `npm start`
+![web-app-cover](https://github.com/akhil-s-kumar/Wegan-WebApp/blob/master/Screenshots/Home.jpg?raw=true)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+![web-app-upload](https://github.com/akhil-s-kumar/Wegan-WebApp/blob/master/Screenshots/ImageUpload.jpg?raw=true)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## :minidisc: Installation Instructions
 
-### `npm test`
+If you want to work with this project or create a version of it make sure to follow the steps below!
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+0. Make sure you have installed [Wegan Backend Framework](https://github.com/akhil-s-kumar/Wegan-Framework)
 
-### `npm run build`
+1. Make sure that you have `node` installed already.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. Make sure you are running the backend framework
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. open a new terminal
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+4. Switch to your base project directory `Wegan`
 
-### `npm run eject`
+5. Clone the WebApp repository
+```bash
+    $ git clone https://github.com/akhil-s-kumar/Wegan-WebApp.git
+    $ cd Wegan-WebApp
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+You have now successfully set up the webapp project locally.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## :rocket: How to run  the project?
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Make sure you are inside `Wegan-WebApp` folder
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+1. Install all the dependencies
 
-## Learn More
+```bash
+    $ npm install
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+2. Run the WebApp
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+    $ npm start
+```
 
-### Code Splitting
+## :wrench: Tech Stacks
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+* **Framework:** React JS
 
-### Analyzing the Bundle Size
+## :gem: Contributors
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+1. [Akhil S Kumar](https://github.com/akhil-s-kumar) - Core Developer and Maintainer
 
-### Making a Progressive Web App
+### How to Contribute?
+1. Fork this repository to your GitHub account
+2. Follow the above installation process.
+3. Find an issue or feature, and work on it.
+4. Push your contribution to your forked repo and make a pull request.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+#### Note: Change the remote repository to your forked one before pushing.
