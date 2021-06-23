@@ -1,0 +1,24 @@
+.btnoutline{
+    border-radius: 50px;
+    font-weight: 500;
+    min-width: 150px;
+    min-height: 50px;
+    background-color: #26AB5E;
+    border-color: #26AB5E;
+    color: #fff;
+  }
+
+.btnoutline:active, 
+.btnoutline:focus
+{
+    background-color: #26AB5E;
+    border-color: #26AB5E;
+    color: #fff;
+    outline: none;
+    box-shadow: none;
+}
+
+.btnoutline:hover{
+  background-color: #26AB5E;
+  color: #ffffff;
+}
